@@ -1,0 +1,54 @@
+body{
+    height:100vh;
+    width:100vw;
+    background-color:background: #1f4037;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #99f2c8, #1f4037);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #99f2c8, #1f4037); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    ;
+    margin:0px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-form{
+    background-color:blanchedalmond;
+    height:30vh;
+    width:25vw;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+.login-input{
+    padding:1rem;
+    width: 80%;
+    border: 0px;
+    outline: none;
+    box-shadow:
+  2.8px 2.8px 2.2px rgba(0, 0, 0, 0.11),
+  6.7px 6.7px 5.3px rgba(0, 0, 0, 0.158),
+  12.5px 12.5px 10px rgba(0, 0, 0, 0.195),
+  22.3px 22.3px 17.9px rgba(0, 0, 0, 0.232),
+  41.8px 41.8px 33.4px rgba(0, 0, 0, 0.28),
+  100px 100px 80px rgba(0, 0, 0, 0.39);
+  border-bottom: 2px solid transparent;
+}
+.login-input:focus{
+    border-bottom: 2px transparent #8E2Df2;
+}
+.login-btn{
+    padding: 1rem;
+    width: 80%;
+    border: 0px;
+    outline: none;
+    background-color:background: #bdc3c7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    ;
+}
+.login-btn:hover {
+    box-shadow: box-shadow:
+    4.5px 4.5px 3.6px rgba(0, 0, 0, 0.191),
+    12.5px 12.5px 10px rgba(0, 0, 0, 0.264),;
+
+}

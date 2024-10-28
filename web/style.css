@@ -1,0 +1,12 @@
+/*element*/
+p {
+    color:yellow;
+ }
+ /*universal*/
+ {
+     color:blue;
+ }
+ /*class selctor-best practices*/
+ .myclass {
+     backgroundcolor:green 
+ }
